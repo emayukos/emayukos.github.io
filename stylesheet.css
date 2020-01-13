@@ -28,22 +28,14 @@ body {
 }
 
 
-.fill {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden
-}
-.fill img {
-	flex-shrink: 0;
+.main {
+	margin-left: 60px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
 }
 
-.article {
-	background-color: white;
-	max-width: 1300px; 
-	height: 550px;
-	text-align: left;
-	padding: 14px 16px;
-	align-items: center;
-	overflow: hidden
-}
+
+		@media screen and (max-height: 450px) {
+		  .sidenav {padding-top: 15px;}
+		  .sidenav a {font-size: 18px;}
+		}
