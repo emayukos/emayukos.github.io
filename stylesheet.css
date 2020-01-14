@@ -4,6 +4,7 @@ body {
 	margin: 0; /* gets rid of whitespace to left of top nav bar */
 }
 
+
 .topnav {
 	overflow: hidden;
 	background-color: mistyrose;
@@ -15,7 +16,7 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 22px;
 }
 
 .topnav a:hover {
@@ -31,7 +32,7 @@ body {
 	color: #F76C6C; /* F672808*/
 	text-align: center;
 	font-style: bold;
-	font-size: 34;
+	font-size: 40;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,20 +56,38 @@ p{margin:0;}
 
 
 .main {
-	padding: 120px 100px;
+	padding-top: 120px;
 }
 
 
-		@media screen and (max-height: 450px) {
-		  .sidenav {padding-top: 15px;}
-		  .sidenav a {font-size: 18px;}
-		}
+.doomrooms {
+	padding-top: 50px;
+	text-align: center;
+	font-style: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden
+}
+
+
+.doomrooms a {
+	float: left;
+	color: #AC3B61;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
 
 
 .gameheader {
-	padding: 50px 16px;
+	padding: 30px;
 	text-align: center;
+	color: #8B2323; /* #C3073F */
+	font-family: Geneva;
 	font-style: bold;
+	font-size: 34;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -84,8 +103,9 @@ p{margin:0;}
 	font-size: 17px;
 }
 
-.gameheader a:hover {
+.doomrooms a:hover {
 	color: #AC3B61; 
+	text-decoration: underline;
 }
 
 
