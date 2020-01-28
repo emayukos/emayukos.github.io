@@ -130,7 +130,7 @@ p{
 	background-color: white;
 	text-decoration: none;
 	max-width: 1300px; 
-	height: 550px;
+	max-height: 500px;
 	text-align: left;
 	padding: 14px 16px;
 	align-items: center;
